@@ -11,7 +11,7 @@ function Hero() {
 
     <section class=" mt-12 min-h-96 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-gray-100 py-16 shadow-lg md:py-20 xl:py-48">
       {/* <!-- image - start --> */}
-      <img src='/bg.jpg' loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center" />
+      <img src='/bg2.jpg' loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center" />
       {/* <!-- image - end --> */}
 
       {/* <!-- overlay - start --> */}
