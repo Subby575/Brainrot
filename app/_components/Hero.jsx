@@ -1,3 +1,4 @@
+import { SignInButton } from '@clerk/nextjs'
 import React from 'react'
 
 function Hero() {
@@ -38,8 +39,9 @@ function Hero() {
       <h1 class="mb-8 text-3xl font-bold text-black sm:text-4xl md:mb-12 md:text-5xl">Chat Your Way to Better Mental Health</h1>
 
       <div class="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
+        <SignInButton>
         <a href="/dash" class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Get Started</a>
-
+        </SignInButton>
       </div>
     </div>
   </div>
